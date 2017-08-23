@@ -1,0 +1,240 @@
+body {
+	background-color: #ABB27D;
+}
+
+h1 {
+	text-decoration: underline;
+	color: #f90000;
+	margin-top: 10px;
+}
+
+.mainbox {
+	width: 700px;
+	height: auto;
+}
+
+.wellcome {
+	width: 700px;
+	height: 233px;
+	margin-left: 310px;
+	margin-top: 70px;
+}
+
+.img3 {
+	width: 104px;
+	height: auto;
+}
+
+.img4 {
+	width: 104px;
+	height: auto;
+	margin-top: -189px;
+	margin-left: 1147px;
+}
+
+.bodybox {
+	width: auto;
+	height: auto;
+	border: 25px solid green;
+}
+
+.h1box {
+	width: 288px;
+	height: 73px;
+	margin-top: -179px;
+	margin-left: 196px;
+}
+
+svg {
+	height: 300px;
+	width: 300px;
+}
+
+.circle_move {
+	padding-left: 480px;
+	margin-top: -2px;
+}
+
+circle {
+	stroke-width: 4px;
+	fill: transparent;
+}
+
+#black {
+	stroke: black;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 0.25;
+	/* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+}
+
+#red {
+	stroke: red;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 157.75;
+	/* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+}
+
+#green {
+	stroke: green;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 235.75;
+	/* offset of arc from start point (1/2 arc length + 3/4 circumference) */
+}
+
+#blue {
+	stroke: blue;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 314.25;
+	/* offset of  arc from start point (1/2 of arc length) */
+}
+
+#orange {
+	stroke: orange;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 392.75;
+	/* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+}
+
+#yellow {
+	stroke: yellow;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 471.25;
+	/* offset of arc from start point (1/2 arc length + 3/4 circumference) */
+}
+
+#purple {
+	stroke: purple;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 549.75;
+	/* offset of arc from start point (1/2 arc length + 3/4 circumference) */
+}
+
+#pink {
+	stroke: pink;
+	stroke-dasharray: 78.5, 628;
+	/* length of arc, circumference of circle */
+	stroke-dashoffset: 628.25;
+	/* offset of arc from start point (1/2 arc length + 3/4 circumference) */
+}
+
+.antiClockWiseId {
+	padding-left: 569px;
+	padding-top: 0px;
+}
+
+.email {
+	padding-left: 500px;
+    margin-top: 70px;
+    text-align: justify;
+    padding-right: 200px;
+}
+
+.password {
+	padding-left: 500px;
+	margin-top: 15px;
+}
+
+.button {
+	padding-left: 544px;
+	padding-top: 5px;
+}
+
+.hr {
+	margin-right: -88px;
+	padding-top: 3px;
+	align: center;
+}
+
+.login {
+	padding-left: 614px;
+	padding-top: 8px;
+}
+
+.verify {
+	padding-left: 83px;
+	padding-top: 8px;
+}
+
+/*******************************************  MENU BAR ****************************************************/
+.signup {
+	width: 477px;
+	height: auto;
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 453px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	margin-top: 11px;
+}
+
+li {
+	float: left;
+	padding-left: 169px;
+	margin-left: 40px;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 9px 0px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+/*******************************************MEDIA ***************************************************************/
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #ABB27D;
+	}
+	.mainbox {
+		width: auto;
+		height: auto;
+	}
+	.img3 {
+		width: 104px;
+		height: auto;
+	}
+	.img4 {
+		width: 104px;
+		height: auto;
+		margin-top: -189px;
+		margin-left: 1164px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		background-color: #ABB27D;
+	}
+	.mainbox {
+		width: auto;
+		height: auto;
+	}
+	.img3 {
+		width: 104px;
+		height: auto;
+	}
+	.img4 {
+		width: 104px;
+		height: auto;
+		margin-top: -189px;
+		margin-left: 206px;
+	}
+}
